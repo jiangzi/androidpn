@@ -61,7 +61,7 @@ public class Notification implements Serializable{
     @Column(name = "clientIP", length = 64)
     private String clientIP;
     
-    @Column(name = "resource", length = 64)
+    @Column(name = "fresource", length = 64)
     private String resource;
     
     @Column(name = "messageId", length = 64)
